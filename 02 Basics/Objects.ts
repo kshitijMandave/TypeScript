@@ -6,7 +6,16 @@ let user = {
 };
 
 // This is Our Simple Object with Type Annotations
-function createUser({ name: string, age: number, isActive: boolean }) {}
-createUser({ name: "Prabhas", age: 30, isActive: false });
+function cUser({
+  name,
+  age,
+  isActive,
+}: {
+  name: string;
+  age: number;
+  isActive: boolean;
+}) {
+  console.log(name, age, isActive);
+}
 
 export {};
