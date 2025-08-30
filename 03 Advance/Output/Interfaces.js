@@ -5,7 +5,7 @@
 function createUser(obj) { }
 // Example usage of the createUser function
 // This will create a new user object with the specified properties.
-createUser({ name: "John", age: 30, password: "Pass@123" });
+// createUser({ name: "John", age: 30, password: "Pass@123" });
 // Interface : it's like a blueprint for an object.
 // It defines the structure that an object should follow.
 // The User interface requires three properties: name, age, and password.
